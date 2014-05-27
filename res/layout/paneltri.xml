@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/right3"
+    android:id="@+id/paneltri">
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <TextView 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0.5"
+	        android:textColor="#000000"
+	        android:gravity="center"
+	        android:textSize="40dp"
+	        android:text="@string/freqHint" />
+
+        <EditText 
+            android:id="@+id/editTriFreq"
+          	android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:textSize="40dp"
+			android:textColor="#000000"
+	        android:layout_weight="0.3"
+	        android:ems="10"
+            android:inputType="numberDecimal"/>
+        <TextView 
+	        android:layout_width="0dp"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0.2"
+	        android:gravity="center"
+	        android:textColor="#000000"
+      	    android:textSize="40dp"
+	        android:text="Hz"/>
+    </LinearLayout>
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    
+    <ImageButton
+	     android:id="@+id/buttonTri"
+	     android:layout_width="match_parent"
+	     android:layout_height="match_parent"
+	     android:onClick="onTriClick"
+	     android:background="#00000000"
+	     android:scaleType="fitEnd"
+	     android:src="@drawable/buttonred"/>
+
+</LinearLayout>

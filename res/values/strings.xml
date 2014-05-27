@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LM-I Standard Underwater Acoustics Signal Generator</string>
+    <string name="sin">正弦波</string>
+    <string name="rect">方波</string>
+    <string name="tri">三角波</string>
+    <string name="up">正向锯齿波</string>
+    <string name="down">反向锯齿波</string>
+    <string name="cw">CW脉冲</string>
+    <string name="any">任意函数波形</string>
+    <string name="freqHint">频率(1Hz ~ 30kHz)：</string>
+    <string name="ratioHint">占空比(0 ~ 100)：</string>
+    <string name="periodHint">周期(30 ～ 1000)：</string>
+    <string name="carryHint">载波频率(1Hz ~ 30kHz)：</string>
+    <string name="fsHint">采样频率(1Hz ~ 150kHz)：</string>
+    <string name="anyHint">最大存储深度为：</string>
+    <string name="setParametersFirstWarning">请先设置参数！</string>
+    <string name="wrongParametersWarning">参数设置错误！</string>
+</resources>

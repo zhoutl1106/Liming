@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LM-I型通用水声信号源</string>
+    <string name="sin">正弦波</string>
+    <string name="rect">方波</string>
+    <string name="tri">三角波</string>
+    <string name="cw">CW脉冲</string>
+    <string name="any">任意函数波形</string>
+
+</resources>
